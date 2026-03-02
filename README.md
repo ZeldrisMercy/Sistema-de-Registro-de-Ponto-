@@ -1,43 +1,68 @@
-🛡️ Mission: Operação Ponto
+# 🛡️ MISSION REPORT: [REDACTED] TIME TRACKING SYSTEM
 
-📝 Briefing do Projeto
-Nesta operação, o objetivo foi neutralizar a ineficiência e os erros causados pelo cálculo manual de horas em uma empresa privada. O sistema de ponto foi desenvolvido para automatizar a gestão de jornada, garantindo a integridade dos dados e eliminando falhas humanas em cálculos sexagesimais (base 60) que antes consumiam horas de trabalho.
+> **CLASSIFIED INFORMATION** > **OPERATOR:** Ícaro de Souza Mariano (ZeldrisMercy)  
+> **STATUS:** Systems of Information Student | Cisco CyberOps Associate in Training  
+> **OBJECTIVE:** Automate workforce hours calculation and ensure data integrity.
 
-🛠️ Arsenal Tecnológico (Tech Stack)
-Core Engine: Python 3.12.
+---
 
-User Interface: Tkinter (Interface gráfica intuitiva).
+## 📝 EXECUTIVE SUMMARY
+Este software foi desenvolvido para neutralizar a ineficiência de cálculos manuais em uma organização privada. O sistema elimina a latência em processos administrativos, reduzindo erros humanos e garantindo a **integridade dos dados** através de uma engine automatizada de cálculo sexagesimal.
 
-Deployment Gear: PyInstaller para empacotamento de binários.
+---
 
-Distribution Forge: Inno Setup Compiler para criação de instaladores de nível profissional.
+## 🛠️ TECHNICAL ARSENAL (STACK)
 
-🚀 Capabilities (Funcionalidades)
-Logs de Acesso: Registro preciso de entrada, intervalos e saída.
+| Component | Specification |
+| :--- | :--- |
+| **Core Engine** | Python 3.12 |
+| **User Interface** | Tkinter GUI |
+| **Deployment Gear** | PyInstaller (Binary Packaging) |
+| **Distribution Forge** | Inno Setup Compiler |
 
-Algoritmo de Precisão: Cálculo automático com conversão de minutos para evitar drift matemático em somas temporais.
+---
 
-Secure Deployment: Instalador customizado com identidade visual e gestão automatizada de dependências via diretório _internal.
+## 🚀 CAPABILITIES (FEATURES)
 
-📂 Intelligence Report: Estrutura de Distribuição
-Para otimizar a performance e garantir a disponibilidade, o projeto utiliza o modo --onedir.
+* **Access Logging**: Registro preciso de entrada, intervalos e saída de colaboradores.
+* **Precision Algorithm**: Conversão automática de minutos para evitar drift matemático em somas temporais (Base 60).
+* **Secure Deployment**: Instalador customizado com gestão de dependências via diretório `_internal`.
 
-Ponto AMAN.exe: Ponto de entrada do sistema.
+---
 
-_internal/: Repositório de bibliotecas dinâmicas (DLLs), incluindo a python312.dll, permitindo a execução em ambientes sem Python pré-instalado.
+## 📂 INTELLIGENCE REPORT: FILE STRUCTURE
 
-⚙️ Protocolo de Instalação
-Acesse o diretório APP/ deste repositório.
+```bash
+# Estrutura de arquivos pós-instalação (Modo --onedir)
+/Program Files/App_Ponto/
+├── Ponto_App.exe          # Main Entry Point (Binary)
+└── _internal/             # Secure Repository
+    ├── python312.dll      # Core Runtime Library
+    ├── _asyncio.pyd       # Internal Python Modules
+    └── [DEPENDENCIES]     # Shared Libraries & Assets
+```
 
-Execute o binário mysetup.exe.
+---
 
-Siga o assistente de instalação (⚠️ Atenção: Requer elevação de privilégios/Admin para escrita em Program Files).
+## ⚙️ INSTALLATION PROTOCOL
 
-👤 Operador Responsável
-Ícaro de Souza Mariano (ZeldrisMercy)
+```yaml
+STEP_01: Acesse o diretório /APP deste repositório.
+STEP_02: Execute o binário 'mysetup.exe'.
+STEP_03: Siga as instruções do assistente.
+WARNING: Requer elevação de privilégios (Admin) para escrita em diretórios do sistema.
+```
 
-⚡ Status: Estudante de Sistemas de Informação.
+---
 
-🛡️ Specialization: Aspirante a Cyber Defender & Cisco CyberOps Associate.
+## 👤 AUTHOR & OPERATOR
 
-🐙 GitHub: ZeldrisMercy
+* **Name**: Ícaro de Souza Mariano
+* **Role**: Cyber Defender & Programmer
+* **Certifications**: CCNA (1, 2, 3) & CyberOps Associate [In Progress]
+* **GitHub**: [ZeldrisMercy](https://github.com/ZeldrisMercy)
+* **LinkedIn**: [Ícaro de Souza Mariano](https://www.linkedin.com/in/SEU_LINKEDIN_AQUI)
+
+---
+
+> **EOF - End of File** > *Documento gerado para fins de portfólio técnico.*
