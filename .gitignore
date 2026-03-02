@@ -1,0 +1,38 @@
+# ==========================================
+# 🛡️ SYSTEM FIREWALL (.gitignore)
+# OPERATOR: ZeldrisMercy
+# MISSION: Protect Repository Integrity
+# ==========================================
+
+# 1. Python Caches & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# 2. PyInstaller Output (Artifacts)
+# Bloqueia as pastas pesadas geradas durante a compilação
+build/
+dist/
+*.spec
+_internal/
+
+# 3. Inno Setup Output
+# Ignora a pasta onde o instalador final foi gerado e arquivos temporários
+APP/
+Output/
+*.exe
+
+# 4. OS & IDE (Windows / VS Code)
+.vscode/
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# 5. Logs & Databases locais (caso seu app gere algum durante testes)
+*.log
+*.sqlite3
+*.db
