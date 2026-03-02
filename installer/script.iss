@@ -39,9 +39,7 @@ Name: "brazilianportuguese"; MessagesFile: "compiler:Languages\BrazilianPortugue
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-; O executável principal
 Source: "C:\Users\icaro\OneDrive\Documentos\Python App\dist\app_ponto\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-; A pasta _internal e TODO o seu conteúdo (DLLs, PyDs, etc) mantendo a estrutura
 Source: "C:\Users\icaro\OneDrive\Documentos\Python App\dist\app_ponto\_internal\*"; DestDir: "{app}\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Registry]
