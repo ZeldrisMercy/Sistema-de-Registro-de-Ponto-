@@ -1,41 +1,43 @@
-Sistema de Ponto
+🛡️ Mission: Operação Ponto
 
-📌 Sobre o Projeto
-Este software foi desenvolvido para automatizar o gerenciamento e cálculo de horas trabalhadas para uma empresa privada. O sistema elimina a necessidade de cálculos manuais complexos, reduzindo erros humanos e garantindo a integridade dos dados de ponto, bem como automatiza um cálculo que antes poderia levar horas.
+📝 Briefing do Projeto
+Nesta operação, o objetivo foi neutralizar a ineficiência e os erros causados pelo cálculo manual de horas em uma empresa privada. O sistema de ponto foi desenvolvido para automatizar a gestão de jornada, garantindo a integridade dos dados e eliminando falhas humanas em cálculos sexagesimais (base 60) que antes consumiam horas de trabalho.
 
-🛠️ Tecnologias Utilizadas
-Linguagem: Python 3.12.
+🛠️ Arsenal Tecnológico (Tech Stack)
+Core Engine: Python 3.12.
 
-Interface: Tkinter (ou a biblioteca que você usou para a UI).
+User Interface: Tkinter (Interface gráfica intuitiva).
 
-Distribuição: PyInstaller (para empacotamento).
+Deployment Gear: PyInstaller para empacotamento de binários.
 
-Instalador: Inno Setup Compiler (para geração do executável profissional).
+Distribution Forge: Inno Setup Compiler para criação de instaladores de nível profissional.
 
-🚀 Funcionalidades
-Registro de entrada, saída e intervalos.
+🚀 Capabilities (Funcionalidades)
+Logs de Acesso: Registro preciso de entrada, intervalos e saída.
 
-Cálculo Automático: Conversão de horas e minutos (base 60) para evitar erros de soma sexagesimal.
+Algoritmo de Precisão: Cálculo automático com conversão de minutos para evitar drift matemático em somas temporais.
 
-Instalador Customizado: Interface de instalação com a identidade visual da empresa e gestão automática de dependências (_internal).
+Secure Deployment: Instalador customizado com identidade visual e gestão automatizada de dependências via diretório _internal.
 
-📂 Estrutura de Distribuição
-O projeto utiliza o modo --onedir do PyInstaller para melhor performance. A estrutura de arquivos instalada segue o padrão:
+📂 Intelligence Report: Estrutura de Distribuição
+Para otimizar a performance e garantir a disponibilidade, o projeto utiliza o modo --onedir.
 
-Ponto AMAN.exe: Executável principal.
+Ponto AMAN.exe: Ponto de entrada do sistema.
 
-_internal/: Pasta contendo bibliotecas dinâmicas (DLLs), incluindo python312.dll, garantindo que o software rode em máquinas sem Python instalado.
+_internal/: Repositório de bibliotecas dinâmicas (DLLs), incluindo a python312.dll, permitindo a execução em ambientes sem Python pré-instalado.
 
-⚙️ Como Instalar
-Vá até a pasta APP/ deste repositório.
+⚙️ Protocolo de Instalação
+Acesse o diretório APP/ deste repositório.
 
-Execute o arquivo mysetup.exe.
+Execute o binário mysetup.exe.
 
-Siga as instruções do assistente (requer privilégios de administrador para instalação em Program Files).
+Siga o assistente de instalação (⚠️ Atenção: Requer elevação de privilégios/Admin para escrita em Program Files).
 
-👤 Autor
+👤 Operador Responsável
 Ícaro de Souza Mariano (ZeldrisMercy)
 
-Estudante de Sistemas de Informação.
+⚡ Status: Estudante de Sistemas de Informação.
 
-Aspirante a Cyber Defender & Cisco CyberOps Associate.
+🛡️ Specialization: Aspirante a Cyber Defender & Cisco CyberOps Associate.
+
+🐙 GitHub: ZeldrisMercy
