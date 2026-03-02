@@ -61,7 +61,7 @@ WARNING: Requer elevação de privilégios (Admin) para escrita em diretórios d
 * **Role**: Cyber Defender & Programmer
 * **Certifications**: CCNA (1, 2, 3) & CyberOps Associate [In Progress]
 * **GitHub**: [ZeldrisMercy](https://github.com/ZeldrisMercy)
-* **LinkedIn**: [Ícaro de Souza Mariano](www.linkedin.com/in/icaro-s-m)
+* **LinkedIn**: [Ícaro de Souza Mariano](https://www.linkedin.com/in/icaro-s-m)
 
 ---
 
