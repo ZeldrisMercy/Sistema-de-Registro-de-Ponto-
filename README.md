@@ -56,7 +56,7 @@ WARNING: Requer elevação de privilégios (Admin) para escrita em diretórios d
 ---
 
 ## 🖥️ SYSTEM INTERFACE
-![Interface do Ponto AMAN](assets/App interface.png)
+![Interface do App](assets/App interface.png)
 
 ---
 
