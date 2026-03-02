@@ -55,11 +55,6 @@ WARNING: Requer elevação de privilégios (Admin) para escrita em diretórios d
 
 ---
 
-## 🖥️ SYSTEM INTERFACE
-![Interface do App](assets/App interface.png)
-
----
-
 ## 👤 AUTHOR & OPERATOR
 
 * **Name**: Ícaro de Souza Mariano
